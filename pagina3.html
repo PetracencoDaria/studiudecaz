@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studiu de Caz</title>
+    <style>
+        /* Stilizare generală */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #032158;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigare */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #032158;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #333;
+        }
+
+        /* Secțiune principală */
+        section {
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Titluri */
+        section h2 {
+            color: #032158;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: 1.7em;
+            color: #032158;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        /* Paragrafe */
+        section p {
+            line-height: 1.8;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* Descriere */
+        section p.description {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-left: 5px solid #032158;
+            font-style: italic;
+        }
+
+        section p b {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* Listă numerotată */
+        ol {
+            margin-left: 20px;
+            font-size: 1.2em;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+
+        /* Linkuri */
+        section a {
+            color: #032158;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        /* Imagini de dimensiuni fixe */
+        .fixed-size-img {
+            max-width: 100%;
+            max-height: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsivitate */
+        @media (max-width: 1024px) {
+            section {
+                padding: 20px;
+                margin: 20px;
+                max-width: 90%;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            section p {
+                font-size: 1em;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tutorial</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="pagina2.html">Importanța GIT/GIT HUB</a></li>
+            <li><a href="pagina3.html">Tutorial</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Studiu de Caz: Utilizarea Aplicațiilor de Lucru în Echipe</h2>
+
+        <p><b>Pașii unui Plan de Colaborare Eficient folosind GIT/GIT HUB</b></p>
+
+        <p class="description">
+            Într-un proiect software de echipă, utilizarea corectă a GIT și GIT HUB este esențială pentru a asigura o
+            colaborare eficientă, transparență și gestionarea modificărilor. Mai jos sunt pașii esențiali pentru
+            implementarea acestui proces.
+        </p>
+
+        <ol>
+            <li><b>Pasul 1: Crearea unui repozitoriu Git</b> - Începe prin crearea unui repozitoriu pe GitHub pentru proiectul
+                tău. Acesta va fi locul central unde toate fișierele și modificările vor fi stocate.
+                <p><img class="fixed-size-img" src="./imagini/imagine1.png"
+                        alt="Crearea depozitului Git"></p>
+            </li>
+            <li><b>Pasul 2: Adaugarea fisierelor</b> - După crearea repozitoriului, adauga fisierele din proiectul in sectiunea "Drag files here to add them to your repository".
+                <p><img class="fixed-size-img" src="/imagini/imagine2.png"
+                        alt="Clonarea depozitului Git"></p>
+            </li>
+            <li><b>Pasul 3: Adaugarea colaboratorilor</b> - Pentru a lucra la un proiect impreuna cu o persoana sau mai multe trebuie sa adaugam colaboratori.
+                <p><img class="fixed-size-img" src="/imagini/imagine3.png"
+                        alt="Crearea ramurii de dezvoltare"></p>
+            </li>
+            <li><b>Pasul 4: Crearea unei ramuri pentru dezvoltare</b> - Fiecare dezvoltator trebuie să creeze o ramură
+                proprie pentru a lucra la o funcționalitate specifică. Acest lucru ajută la evitarea conflictelor în
+                codul principal.
+                <p><img class="fixed-size-img" src="/imagini/imagine4.png"
+                        alt="Crearea ramurii de dezvoltare"></p>
+            </li>
+            <li><b>Pasul 5: Modificarea fisierilor pe GitHub</b> - Fiecare membru al echipei efectuează modificările
+                necesare pe ramura sa, fără a afecta proiectul principal. Testarea modificărilor este esențială înainte
+                de a le împinge în repozitoriul principal.
+                <br>Primul colaborator a facut modificarile in "index.html":
+                <p><img class="fixed-size-img" src="/imagini/imagine7.png"
+                        alt="Modificarea și testarea locală"></p>
+            </li>
+            <li><b>Pasul 5: Modificarea fisierilor pe GitHub.</b>
+                <br>Al doilea colaborator a facut modificarile in "style.css":
+                <p><img class="fixed-size-img" src="/imagini/imagine8.png"
+                        alt="Modificarea și testarea locală"></p>
+            </li>
+            <li><b>Pasul 6: Trimiterea modificărilor pe GitHub</b> - După ce modificările sunt testate și gata, acestea
+                sunt împinse (push) în depozitul GitHub, astfel încât să fie disponibile tuturor colaboratorilor.
+                <br>Modificari trimise al colaboratorului 1:
+                <p><img class="fixed-size-img" src="/imagini/imagine5.png"
+                        alt="Trimiterea modificărilor pe GitHub"></p>
+            </li>
+            <li><b>Pasul 6: Trimiterea modificărilor pe GitHub</b> - După ce modificările sunt testate și gata, acestea
+                sunt împinse (push) în depozitul GitHub, astfel încât să fie disponibile tuturor colaboratorilor.
+                <br>Modificari trimise al colaboratorului 2:
+                <p><img class="fixed-size-img" src="/imagini/imagine6.png"
+                        alt="Trimiterea modificărilor pe GitHub"></p>
+            </li>
+            <li><b>Pasul 7: Crearea unui Pull Request</b> - După ce modificările au fost împinse, se va crea un "pull
+                request" pentru ca ceilalți membri ai echipei să poată revizui și aproba modificările.
+                <p><img class="fixed-size-img" src="/imagini/imagine9.png" alt="Crearea Pull Request">
+                </p>
+            </li>
+            <li><b>Pasul 7: Integrarea modificărilor</b> - După revizuire, modificările sunt integrate în ramura
+                principală a proiectului. Acest pas asigură că codul principal este mereu actualizat cu cele mai recente
+                funcționalități.
+                <p><img class="fixed-size-img" src="/imagini/imagine10.png"
+                        alt="Integrarea modificărilor"></p>
+            </li>
+            <li><b>Pasul 8: Testarea finală și implementarea</b> - După integrarea modificărilor, se efectuează o
+                testare finală pentru a asigura că întregul sistem funcționează corect. Dacă totul este în ordine,
+                proiectul poate fi implementat.
+                <p><img class="fixed-size-img" src="/imagini/imagine11.png"
+                        alt="Testarea finală și implementarea"></p>
+            </li>
+        </ol>
+
+        <p class="description">
+            Fiecare dintre acești pași ajută la menținerea unei colaborări fluente și la gestionarea eficientă a
+            versiunilor într-un proiect software. Utilizarea corectă a GIT și GitHub nu doar că ajută echipa să lucreze
+            mai rapid, dar și îmbunătățește calitatea finală a codului.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AppBiblioteca - Toate drepturile rezervate.</p>
+    </footer>
+</body>
+
+</html>

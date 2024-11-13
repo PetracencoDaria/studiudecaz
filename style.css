@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color:#032158;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;  
+    bottom: 0;
+    width: 100%;
+}
+
+/* Stiluri pentru navigare */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#032158;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Stiluri pentru secțiune */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2.0em;
+    text-align: center;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1200px; /* Lățime mai mare pentru a se potrivi pe ecrane de dimensiuni mari */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Stiluri pentru titluri */
+section h2 {
+    color: #032158;
+    font-size: 2.2em; /* Mărime mai mare pentru titluri */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.7em;
+    color:#032158;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Stil pentru paragrafe */
+section p {
+    line-height: 1.8;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Stilizare pentru paragrafe cu descriere */
+section p.description {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-left: 5px solid #032158;
+    font-style: italic;
+}
+
+section p b {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Listă ordonată și neordonată */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Linkuri */
+section a {
+    color:#032158;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivitate - ajustări pentru mobil (încă funcționale la ecrane mai mici) */
+@media (max-width: 1024px) {
+    section {
+        padding: 20px;
+        margin: 20px;
+        max-width: 90%; /* Lăsăm secțiunea mai îngustă pe ecranele mai mici */
+    }
+    
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
